@@ -78,7 +78,7 @@ class Handler(SimpleHTTPRequestHandler):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='GALATEA local website preview server (Python standard library only)'
+        description='DAVIS local website preview server (Python standard library only)'
     )
     parser.add_argument(
         '--host',
