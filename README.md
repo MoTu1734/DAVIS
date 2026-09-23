@@ -15,8 +15,8 @@ The page uses the active figures and content from `ICRA/1_原文转格式/DAVIS_
 ## Named release: 2026-09-23
 
 - Source: `ICRA/1_原文转格式/DAVIS_ICRA2027_Self/root.tex` and its active inputs.
-- Paper: the source `root.pdf`, built on 2026-09-22 at 17:55 (Asia/Shanghai), copied without re-encoding; 16 pages including the full appendix.
-- Paper SHA-256: `907315210fcb20fbb37e8ace12592b8309cc7075138ee1a71512c6a0aa7a23ee`.
+- Paper: the source `root.pdf`, built on 2026-09-23 at 17:15 (Asia/Shanghai), copied without re-encoding; 16 pages including the full appendix.
+- Paper SHA-256: `e64137e72e6151844be86f7694efe6c30c1c3380dbd5b7c7fe7ca9476fd6c9b3`.
 - The named page body is organized into Abstract, Overview, Method, Tasks, Results, and Deployment chapters with a responsive section navigator; the technical supplement remains organized as Appendix A–F.
 - The supplement follows the separate Table VI (reaching/obstacle) and Table VII (turning) captions and distinguishes the reference protocols.
 - The main method summary uses the dimension-neutral term “HIM history feature” because the active appendix and the main framework caption currently disagree on its dimensionality; the 32-D depth latent is stated separately.
