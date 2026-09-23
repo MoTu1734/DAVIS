@@ -618,6 +618,10 @@ html {
 @media(max-width:520px){.spec-grid,.schedule-grid{grid-template-columns:1fr}.spec-grid>div,.schedule-grid>div{min-height:auto}.chapter-heading{gap:.7rem}.chapter-heading>span{width:2.3rem;height:2.3rem;font-size:1rem}.chapter-heading h3{font-size:1.28rem}.appendix-nav a{font-size:.76rem}.equation-block{padding:.8rem 1rem}}
 .davis-authors{max-width:72rem;margin:1.15rem 0 0;color:#d6d8db;font-family:'Google Sans','Segoe UI',sans-serif;font-size:clamp(.85rem,1.05vw,1.15rem);line-height:1.55;opacity:0;transform:translateY(13px);animation:davis-reveal-y 520ms cubic-bezier(.22,1,.36,1) 930ms forwards}.davis-authors strong{color:inherit}.davis-authors p{margin:0}.davis-authors p+p{margin-top:.18rem;font-size:.88em}.davis-authors sup{position:relative;top:-.15em;margin-left:.04em;color:#fff;font-size:.68em}
 
+/* Native MathML keeps equation baselines and scripts aligned across fonts and zoom levels. */
+.equation-row math{display:inline-block;min-width:max-content;color:inherit;font-family:Cambria,'Times New Roman',serif;font-size:1.08em;line-height:1.2}.equation-row math mi{font-family:Cambria,'Times New Roman',serif}.equation-row math mo{font-family:Cambria,'Times New Roman',serif}.equation-row math mtext{font-family:Cambria,'Times New Roman',serif}.equation-row math[display="block"]{display:block}
+#tasks .davis-lede + .columns{margin-top:1.5rem}
+
 /* Align by column role, including cells following a rowspan.
    Two table classes override Bulma's .table th:not([align]) reset. */
 .table.davis-table th,
