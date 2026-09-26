@@ -1,6 +1,33 @@
-# DAVIS project homepage
+# DAVIS
 
-This static project page adapts the [GALATEA `gh-pages` template](https://github.com/boyuan-an/GALATEA/tree/gh-pages) for DAVIS: *A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills*.
+**A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills**
+
+DAVIS is a depth-only framework for learning humanoid soccer contact skills. Its policy uses a head-mounted depth image, proprioceptive history, and an optional task command to produce 25-DoF joint targets. Training combines visibility-aware auxiliary geometry, a transition from ground-truth to predicted features, task curricula, and motion priors. The paper evaluates goal-directed shooting and directional dribbling in simulation and on the Noetix E1 robot.
+
+## Links
+
+- [Project website](https://thusi-lab.github.io/DAVIS/)
+- [Paper on arXiv](https://arxiv.org/abs/2609.28175)
+- [Video demonstration](https://thusi-lab.github.io/DAVIS/#video)
+- [Personal website mirror](https://motu1734.github.io/DAVIS/)
+
+## About this repository
+
+This repository hosts the static project website, including its figures, demonstration video, and a copy of the paper. It does not contain the training or robot deployment code. The organization and personal repositories publish the same project page.
+
+## Citation
+
+```bibtex
+@misc{jin2026davisdepthonlyendtoendactivevision,
+  title={DAVIS: A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills},
+  author={Jiakang Jin and Yixiao Huo and Pengyuan Wang and Yinan Han and Tingxuan Zhang and Zhuobing Zhao and Xuanxin Zhou and Zhangchen Ye and Enxuan Ruan and Yifei Bao and Jiankun Yang and Chenghao Sun and Wenhao Cui and Xiaoyu Tian and Yiming Li},
+  year={2026},
+  eprint={2609.28175},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2609.28175}
+}
+```
 
 ## Local preview
 
@@ -10,15 +37,4 @@ python .\serve.py --host 127.0.0.1 --port 8000
 
 Open <http://127.0.0.1:8000/index.html>.
 
-The page uses the active figures and content from `ICRA/1_原文转格式/DAVIS_ICRA2027_Self`. The named page publishes the current manuscript as `resources/DAVIS.pdf`. Large raw demonstration archives remain in the source workspace and are intentionally not copied into this static site.
-
-## Named release: 2026-09-23
-
-- Source: `ICRA/1_原文转格式/DAVIS_ICRA2027_Self/root.tex` and its active inputs.
-- Paper: the source `root.pdf`, built on 2026-09-23 at 17:15 (Asia/Shanghai), copied without re-encoding; 16 pages including the full appendix.
-- Paper SHA-256: `e64137e72e6151844be86f7694efe6c30c1c3380dbd5b7c7fe7ca9476fd6c9b3`.
-- Cover: the hero and social preview use `CoRL/demo/teaser/Teaserv10.jpg`, copied as `assets/figures/davis-cover-v10.jpg`; the annotated overview figure remains separate.
-- The named page body is organized into Abstract, Overview, Method, Tasks, Results, and Deployment chapters with a responsive section navigator; the technical supplement remains organized as Appendix A–F.
-- The supplement follows the separate Table VI (reaching/obstacle) and Table VII (turning) captions and distinguishes the reference protocols.
-- The main method summary uses the dimension-neutral term “HIM history feature” because the active appendix and the main framework caption currently disagree on its dimensionality; the 32-D depth latent is stated separately.
-- The public citation includes all named authors and identifies the document as a manuscript; update publication metadata when a confirmed venue or archive record is available.
+The website layout is adapted from the [GALATEA project page](https://github.com/boyuan-an/GALATEA/tree/gh-pages).
